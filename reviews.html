@@ -98,16 +98,7 @@ a{
     color: white;
     padding:40px 20px;
 }
-/*.box3{
-    position: relative;
-    animation-name: left;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-@keyframes left {
-    0%{left:-1000px;}
-    100%{left:0px;}
-}*/
+
 .button{
     font-size:20px;
     display: inline-block;
@@ -127,7 +118,20 @@ a{
     100%{top:200px;}
 }
 
-
+/*animation*/
+.fly{
+    position: relative;
+    height: 80px;
+    animation-name: fly;
+    opacity: 1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    
+}
+@keyframes fly {
+    0%{top:-1000px; opacity: 0;}
+    100%{top:80px; opacity:1;}
+}
 .footer{
     padding:2px;
    background-color: rgb(29, 27, 27);
@@ -176,12 +180,12 @@ padding:10px;
 <div class="container">
 <div class="review1">
 <div class="box1">
-    <img src="img.jpg" alt="bad"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+    <img src="img.jpg" alt="bad"> <p class="fly">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
      repudiandae ipsa quaerat, quae quo quas ad repudiandae ipsa quaerat, quae quo quas ad
     </p></img>
 </div><!--first boc=x ends-->
 <div class="box2">
-        <img src="img.jpg" alt="bad"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+        <img src="img.jpg" alt="bad"> <p class="fly">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
          repudiandae ipsa quaerat, quae quo quas ad repudiandae ipsa quaerat, quae quo quas ad
         </p></img>
 </div><!--second box ends-->

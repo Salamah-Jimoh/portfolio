@@ -1,0 +1,236 @@
+<!doctype html>
+<head>
+<title> Reviews</title>
+<meta charset= "UTF-8">
+<meta name="viewport" >
+<style>
+    *{
+    margin:0;
+    padding:0;
+}
+body{
+    margin: auto;
+    border: 15px solid rgb(88, 5, 88);
+    background-color: white;
+    font-size:12px;
+    color:rgb(29, 27, 27)
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+ 
+.nav-ul{
+ list-style-type: none;
+
+}
+.big-p li{
+    display:inline;
+    padding:10px;
+}
+.big-p{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7em;
+  font-size:17px;
+}
+.header h1{
+    text-align: center;
+    padding:10px;
+}
+.header img{
+    border:1px solid black;
+}
+.container{
+    margin:absolute;
+    width:100%;
+}
+/*reviws starts*/
+.review1{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    line-height:1.6em;
+    font-size:18px;
+    margin-top:20px;
+}
+.review1 img{
+    width:50px;
+    height:50px;
+    background-color: black;
+}
+.box1{
+    border:1px solid lightgray;
+    background-color: black;
+    color: white;
+    padding:40px 20px;
+}
+.box2{
+    border:1px solid lightgray;
+    background-color:black;
+    color:white;
+    padding:40px 20px;
+}
+.review2{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    line-height:1.6em;
+    font-size:18px;
+    margin-top:20px;
+}
+
+
+.review2 img{
+    width:50px;
+    height:50px;
+    background-color: black;
+   
+}
+   
+
+.box3{
+    border:1px solid lightgray;
+    background-color: black;
+    color: white;
+    padding:40px 20px;
+}
+.box4{
+    border:1px solid lightgray;
+    background-color: black;
+    color: white;
+    padding:40px 20px;
+}
+/*.box3{
+    position: relative;
+    animation-name: left;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes left {
+    0%{left:-1000px;}
+    100%{left:0px;}
+}*/
+.button{
+    font-size:20px;
+    display: inline-block;
+    color:white;
+    padding: 1rem 2rem;
+     background-color: rgb(88, 5, 88);
+    border:1px solid black;
+    margin: 20px 120px;
+    position:relative;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: ease-out;
+}
+@keyframes button{
+    0%{top:-50px;}
+    100%{top:200px;}
+}
+
+
+.footer{
+    padding:2px;
+   background-color: rgb(29, 27, 27);
+    margin-top:20px;
+
+}
+.footer-p{
+    color: rgb(238, 229, 238);
+    font-family: cursive;
+    padding:10px;
+}
+@media(max-width: 600px){
+    .review1{
+    flex-wrap: wrap;
+}
+.review2{
+    flex-wrap: wrap;
+}
+.button{
+padding:10px;
+}
+}
+</style>
+</head>
+
+<!--hrtml codes-->
+<div class="header">
+<h1> Reviews</h1>
+<small>...and comments</small>
+    <div id="main-nav">
+        <ul class= "nav-ul">
+        <div class ="big-p">
+            <li class ="big-p"><a href="index.html">Home</a></li>
+            <li class ="big-p"><a href="message.html">Contact</a></li>
+            <li class ="big-p" ><a href="reviews.html">Reviews</a></li>
+            <li class ="big-p"><a href="projects.html">Projects</a></li>
+            <li class ="big-p"><a href="heal.html">Heal</a></li>
+        </div><!--nav ul stops-->  
+        </ul>
+    
+        
+    </div><!--main nav stops-->
+    <img alt="review pic" src="check.png" width="800px" height="500px"></a>
+</div><!--header div stops-->
+
+<div class="container">
+<div class="review1">
+<div class="box1">
+    <img src="img.jpg" alt="bad"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+     repudiandae ipsa quaerat, quae quo quas ad repudiandae ipsa quaerat, quae quo quas ad
+    </p></img>
+</div><!--first boc=x ends-->
+<div class="box2">
+        <img src="img.jpg" alt="bad"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+         repudiandae ipsa quaerat, quae quo quas ad repudiandae ipsa quaerat, quae quo quas ad
+        </p></img>
+</div><!--second box ends-->
+    </div><!--first reviw stops-->
+
+    <div class=review2>
+        <div class="box3">
+            <img src="img.jpg" alt="bad"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                repudiandae ipsa quaerat, quae quo quas ad repudiandae ipsa quaerat, quae quo quas ad
+            </p></img>
+        </div><!--3 boc=x ends-->
+        <div class="box4">
+            <img src="img.jpg" alt="bad"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                repudiandae ipsa quaerat, quae quo quas ad repudiandae ipsa quaerat, quae quo quas ad
+               </caption></p>
+        </div><!--4 box ends-->
+            </div><!--secondreviw stops-->
+<a class="button" href="message.html"> Click Here To Add Yours</a>
+
+
+
+</div><!--container stops-->
+
+
+
+
+<div class= "footer">
+    &nbsp;<p class= "footer-p">Salamah Jimoh 2020<br>
+    <!--icon--> jimohsalamah@gmail.com<br>
+    <!--icon
+--> 08123038871<br></p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

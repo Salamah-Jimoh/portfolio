@@ -77,7 +77,7 @@ a:hover{
     transition-duration: 2s;
     
     }
-    .button:active{
+    .button:hover{
         transform:rotateY(180deg);
     }
    @keyframes button{
@@ -93,7 +93,8 @@ a:hover{
     position:relative;
     animation-name: h1;
     animation-duration: 4s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 2;
+    animation-fill-mode: ease-out;
 }
 @keyframes h1{
     0%{top:-50px;}

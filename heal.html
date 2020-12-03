@@ -39,10 +39,7 @@ a{
         text-align: center;
         padding:10px;
 }
-.header h1{
-    text-align: center;
-    padding:10px;
-}
+
 
 .header img{
     border:1px solid black;
@@ -51,8 +48,62 @@ a{
     margin:absolute;
     width:100%;
 }
+.heal{
+    display: flex;
+    padding:10px;
+    margin:10px;
+  
+}
+.box1b{
+border: 1px solid black;
+}
+.box2b{
+border: 1px solid black;
+background-color: black;
+position: relative;
+}
+.h1{
+    text-align:center;
+color:white;
+padding:10px;
+}
+.text{
+    font-size:18px; 
+    font-weight:normal;
+    font-family: monospace;
+    color:white;
+    
+}
+.btn{
+    padding:15px;
+    background-color: white;
+     color:coral;
+     position: absolute;
+     font-size:15px;
+     animation-name: swim;
+     animation-duration: 2s;
+     animation-delay: 2s;
+     animation-iteration-count: 3;
+}
+@keyframes swim {
+    0%{right:-1000px;}
+    100%{right:500px;}
+    
+}
 
-
+.btn:hover{
+    background-color: coral;
+     color:white;
+}
+.btn:active{
+    background-color: coral;
+     color:white;
+}
+h2{
+    padding:10px;
+    line-height: 1.4em;
+    text-transform: capitalize;
+}
 
 
 .footer{
@@ -67,8 +118,33 @@ a{
     padding:10px;
 }
 @media(max-width:600px){
+  .heal{
+      flex-wrap: wrap;
+  }  
+  .btn{
+    padding:10px;
+    background-color:coral;
+     color:white;
+     position: absolute;
+     font-size:15px;
+     animation-name: swim;
+     animation-duration: 3s;
+     animation-delay: 2s;
+     animation-iteration-count: 2;
+     animation-fill-mode: forwards;
+}
+@keyframes swim {
+    0%{right:-100px;}
+    100%{right:300px;}
     
-  
+}
+h2{
+    margin-top :30px;
+}
+  .btn:hover{
+      background-color: black;
+      color:coral;
+  }
 }
 </style>
 </head>
@@ -95,14 +171,49 @@ a{
     <div class="img"><!--img stops--></div>
     <div class="container">
         <img alt="pic-message" src="heal.jpg" width="1320px" height="500px" class="banner">
-some text
+<!--bunch of heals-->
+<div class="heal">
+      <div class="box1b">
+          <img src="cover.png" alt="heal" height="350px" width="500px"></img>
+         <!--button-->
+</div><!--one ends-->
+<div class="box2b">
+    <h1 class= h1>Blurb Of Heal</h1>
+    <p class ="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Natus provident consequuntur nobis ab amet, saepe labore ex odio unde in commodi
+         similique delectus sed consectetur quo, nulla necessitatibus culpa temporibus porro. Eaque, soluta, non laborum nihil autem ipsa,
+          delectus explicabo ut doloribus commodi tenetur nam ducimus mollitia veniam natus voluptatem adipisci. 
+          Expedita voluptates cum aspernatur,
+           nesciunt, qui vero nulla ipsam inventore tenetur nisi, quasi at. Perferendis, 
+           necessitatibus vel eos non sed laudantium labore soluta nih
+           il qui! Vero natus facere unde, blanditiis molli
+         repudiandae. Minus at saepe, repudiandae minima quidem nihil voluptates veritatis placeat ullam tempora nostrum possimus iure accusamus? 
+         Sed?</p>
+         <a class="btn" href="#" style="margin:10px;"> Read Heal</a>
+</div><!--2 ends-->
+
+</div><!--heal stops-->
+
+    <h2>The image below is of my poem Feautured in youth magazine in london titled "Don't call me a writer"</h2>
+    <div class="b3">
+    <img src="poem.jpg" alt="heal" height="250px" width="400px"></img>
+    <p class="text" style="color: coral;">Follow On Instagram @jimoh_salamah to see more of my writings xxx</p>
+</div><!--ends-->
+
+
     </div> <!--container stops-->
-        <a href="index.html" style="text-decoration:underline; color:blue;">Go Back to homepage</a>
+        <a href="index.html" style="text-decoration:underline; color:blue;">Go Back To HomePage</a>
         <div class= "footer">
             &nbsp;<p class= "footer-p">Salamah Jimoh 2020<br>
             <!--icon--> jimohsalamah@gmail.com<br>
             <!--icon
         --> 08123038871<br></p>
+        <div class="icons">
+            <a href="#"><img src="list.jpg" alt="whatsappicon"></a></img>
+            <img src="list.jpg" alt="instagramicon"></a></img>
+            <img src="list.jpg" alt="fbicon"></a></img>
+            <img src="list.jpg" alt="tweeticon"></a></img>
+        </div>
             </div>
         </body>
         </html>

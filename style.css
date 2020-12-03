@@ -193,6 +193,13 @@ align-items: flex-end;
     color:white;
     padding:40px 20px;
 }
+.text{
+    font-size:18px; 
+    font-weight:normal;
+    font-family: monospace;
+    color:black;
+    
+}
 
         
 
@@ -212,7 +219,7 @@ align-items: flex-end;
 .footer{
     padding:2px;
    background-color: rgb(29, 27, 27);
-    margin-top:400px;
+    margin-top:80px;
 
 }
 .footer-p{

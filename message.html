@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-<title> Message</title>
+<title> Contact</title>
 <meta charset= "UTF-8">
 <meta name="viewport" >
 <style>
@@ -45,18 +45,66 @@ li{
 .header img{
     border:1px solid black;
 }
+.banner{
+    width:1320px;
+    height:500px;
+    position:relative;
+
+}
 /*form starts*/
+
+.form-container{
+    opacity:0.3;
+    margin: auto;
+    width: 80%;
+    border-radius: 15px;
+    background-color:white;
+}
+.header-form{
+    padding:30px;
+}
+.myform input{
+    display: block;
+    padding-top:20px;
+}
+.myform input[type="email"]{
+    border-radius:10px;
+    background-color: white;
+    margin:20px;
+    width:70%
+}
+.myform input[type="text"]{
+    border-radius:10px;
+    background-color: white;
+    margin:20px;
+    width:70%
+}
+.myform input[type="submit"]{
+    border-radius:10px;
+    margin:20px;
+    width:70%
+}
 
 .footer{
     padding:2px;
    background-color: rgb(29, 27, 27);
-    margin-top:400px;
+    margin-top:40px;
 
 }
 .footer-p{
     color: rgb(238, 229, 238);
     font-family: cursive;
     padding:10px;
+}
+.icons img{
+    padding:5px;
+}
+
+@media(max-width :600px){
+    .banner{
+        width:500px;
+        height:500px;
+    }
 }
 </style>
 </head>
@@ -75,27 +123,32 @@ li{
             <li class ="big-p"><a href="heal.html">Heal</a></li>
         </div><!--nav ul stops-->  
         </ul>
-        <!--form-->
-        <div class="form-container"></div>
-        <h1> Fill This Form</h1>
-    
-        
-    </div><!--main nav stops-->
-    <img alt="pic-message" src="heal.jpg" width="1320px" height="500px" class="banner">
+     <!--main nav stops-->
+    <img alt="pic-message" src="message.jpg" width="1320px" height="500px" class="banner">
 </div><!--header div stops-->
-
+<!--form-->
+<div class="form-container"></div>
+       
+            <h2 class ="header-form">Enter Details</h2>
+            <form method="post" class="myform">
+                <input type="email" placeholder="username@mail.com">
+                <input type="text" placeholder="Enter Your Firstname">
+               <a class="login" href="mailto:salamahjimoh@gmail.com"> <input type="submit" value="Message"></a>
+            </form>
+            </p>
+            </div>
 <a href="index.html" style="text-decoration:underline; color:blue;">Go Back To HomePage</a>
 <div class= "footer">
     &nbsp;<p class= "footer-p">Salamah Jimoh 2020<br>
-    <!--icon--> jimohsalamah@gmail.com<br>
+    <!--icon--> salamahjimoh@gmail.com<br>
     <!--icon
 --> 08123038871<br></p>
     
     <div class="icons">
-        <a href="#"><img src="list.jpg" alt="whatsappicon"></a></img>
-        <img src="list.jpg" alt="instagramicon"></a></img>
-        <img src="list.jpg" alt="fbicon"></a></img>
-        <img src="list.jpg" alt="tweeticon"></a></img>
+        <a href="#"><img src="whatsapp.png" alt="whatsappicon"></a></img>
+        <img src="insta.jpeg" alt="instagramicon"></a></img>
+        <img src="fb.png" alt="fbicon"></a></img>
+        <img src="twitter.png" alt="tweeticon"></a></img>
     </div>
 </div>
 </body>

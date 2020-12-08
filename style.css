@@ -34,11 +34,6 @@ a:hover{
     display:inline;
     padding:10px;
 }         
-.fix{
-    position:fixed;
-    top:450px;
-}
-
 
 
 .nav-ul{
@@ -50,19 +45,51 @@ a:hover{
   line-height: 1.7em;
   font-size:17px;
 }
+.banner{
+    width:1320px;
+    height:500px;
+    position:relative;
+
+}
+#imganime{
+    background-image: url('../salamah.com/anon.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    width:1320px;
+    height:500px;
+    position:relative;
+    
+}
+
+.anime{
+    
+    word-spacing:10px;
+    text-align: center;
+    font-size:50px;
+    line-height: 1.3em;
+    position:relative;
+    animation-name: h1;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+@keyframes h1{
+    0%{top:-50px;}
+    100%{top:200px;}
+}
 
 .container{
     margin:absolute;
     width:100%;
 }
-.img{
-   width:800px;
+/*.img{
+    width:1320px;
     height:500px;
-    background-image: url('../salamah.com/img.jpg');
+    background-image: url('../salamah.com/anon2.jpg');
     background-repeat: no-repeat;
-    position:rlative;
+    position:relative;
     
-}
+}*/
 .button{
     font-size:20px;
     display: inline-block;
@@ -88,22 +115,9 @@ a:hover{
        0%{opacity:0;}
        100%{opacity:1;}
    } 
-.anime{
-    color:rgb(241, 234, 241);
-    word-spacing:10px;
-    text-align: center;
-    font-size:50px;
-    line-height: 1.3em;
-    position:relative;
-    animation-name: h1;
-    animation-duration: 4s;
-    animation-iteration-count: 2;
-    animation-fill-mode: ease-out;
-}
-@keyframes h1{
-    0%{top:-50px;}
-    100%{top:200px;}
-}
+  
+
+
 
 
 
@@ -145,8 +159,32 @@ align-items: flex-end;
     list-style-image: url('../salamah.com/list.jpg');
     margin-left:50px;
 }
-.list :nth-child(even){
-    list-style-image: url('../salamah.com/check.png');
+.list :first-child{
+    list-style-image: url('../salamah.com/html.png');
+}
+.list :nth-child(2){
+    list-style-image: url('../salamah.com/css.png');
+}
+.list :nth-child(3){
+    list-style-image: url('../salamah.com/js.png');
+}
+.list :nth-child(4){
+    list-style-image: url('../salamah.com/wordpress.png');
+}
+.list :nth-child(5){
+    list-style-image: url('../salamah.com/git.png');
+}
+.list :nth-child(6){
+    list-style-image: url('../salamah.com/boot.png');
+}
+.list :nth-child(7){
+    list-style-image: url('../salamah.com/art.png');
+}
+.list :nth-child(8){
+    list-style-image: url('../salamah.com/write.png');
+}
+.list :nth-child(9){
+    list-style-image: url('../salamah.com/node.png');
 }
 .prof{
     padding:10px;
@@ -227,15 +265,23 @@ align-items: flex-end;
     font-family: cursive;
     padding:10px;
 }
+
+.icons img{
+    padding:5px;
+}
 @media(max-width :600px){
-    .img{
-        width:1200px;
+    .banner{
+        width:500px;
         height:500px;
-        background-image: url('../salamah.com/img.png');
+    }
+    #imganime{
+        width:500px;
+        height:500px;
+        background-image: url('../salamah.com/anon.jpg');
         background-repeat: no-repeat;
         
     }
-    .img h1{
+    /*.img h1{
         color:rgb(241, 234, 241);
         text-transform:Initial;
         word-spacing:5px;
@@ -246,6 +292,11 @@ align-items: flex-end;
         line-height: 1.6em;
         
     
+    }*/
+    .anime{
+        text-align:center;
+        font-size:40px;
+        font-weight: bold;
     }
     .main{
         display:flex;

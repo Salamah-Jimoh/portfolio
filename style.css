@@ -59,6 +59,7 @@ a:hover{
     width:1320px;
     height:500px;
     position:relative;
+    overflow: hidden;
     
 }
 
@@ -196,7 +197,9 @@ align-items: flex-end;
            
         .box3{
             margin:5px;
-            padding:10px;}
+            padding:10px;
+            overflow: hidden;
+        }
     #review{
         padding:15px;
         margin:10px;

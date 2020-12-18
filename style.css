@@ -29,6 +29,7 @@ a:hover{
     color:white;
         text-align: center;
         padding:10px;
+        overflow:hidden;
 }
 .big-p li{
     display:inline;
@@ -269,7 +270,8 @@ align-items: flex-end;
 .icons img{
     padding:5px;
 }
-@media(max-width :480px){
+@media(max-device-width :480px)
+{
     .banner{
         width:500px;
         height:500px;

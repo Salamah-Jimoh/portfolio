@@ -273,12 +273,9 @@ align-items: flex-end;
 .icons img{
     padding:5px;
 }
-@media(max-width :600px)
+@media(max-device-width :480px)
 {
-    #cont{
-text-align: center;
-justify-content: center;
-    }
+
     .banner{
         width:500px;
         height:500px;

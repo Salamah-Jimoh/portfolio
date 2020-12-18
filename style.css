@@ -59,7 +59,7 @@ a:hover{
     width:1320px;
     height:500px;
     position:relative;
-    overflow: hidden;
+   /* overflow: hidden;*/
     
 }
 
@@ -284,6 +284,7 @@ align-items: flex-end;
         height:500px;
         background-image: url('anon.jpg');
         background-repeat: no-repeat;
+        overflow: hidden;
         
     }
     /*.img h1{

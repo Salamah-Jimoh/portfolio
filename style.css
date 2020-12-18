@@ -283,6 +283,7 @@ align-items: flex-end;
         width:450px;
         height:500px;
         background-image: url('anon.jpg');
+        background-position: center top;
         background-repeat: no-repeat;
         overflow: hidden;
         

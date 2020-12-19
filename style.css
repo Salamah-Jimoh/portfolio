@@ -60,6 +60,7 @@ a:hover{
     height:500px;
     position:relative;
    /* overflow: hidden;*/
+
     
 }
 
@@ -273,8 +274,13 @@ align-items: flex-end;
 .icons img{
     padding:5px;
 }
-@media(max-device-width :480px)
+@media(max-device-width:480px)
 {
+    .heading-menu{
+        width:100%;
+        margin:0 absolute;
+        overflow:hidden;
+    }
 
     .banner{
         width:500px;
@@ -283,10 +289,10 @@ align-items: flex-end;
     #imganime{
         width:450px;
         height:500px;
-        background-image: url('anon.jpg');
+        background-image: url('anon2.jpg');
         background-position: center top;
         background-repeat: no-repeat;
-        overflow: hidden;
+
         
     }
     /*.img h1{
@@ -305,6 +311,7 @@ align-items: flex-end;
         text-align:center;
         font-size:40px;
         font-weight: bold;
+        visibility: hidden;
     }
     .main{
         display:flex;

@@ -73,7 +73,7 @@ a:hover{
     position:relative;
     animation-name: h1;
     animation-duration: 4s;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
     animation-fill-mode: forwards;
 }
 @keyframes h1{
@@ -308,7 +308,7 @@ align-items: flex-end;
     
     }*/
     .anime{
-        text-align:center;
+        text-align:left;
         font-size:40px;
         font-weight: bold;
     }

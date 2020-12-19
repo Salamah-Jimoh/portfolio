@@ -56,36 +56,40 @@ li{
 }
 /*form starts*/
 
-.form-container{
-    opacity:0.3;
-    margin: auto;
-    width: 80%;
-    border-radius: 15px;
-    background-color:white;
+
+/*form styling*/
+#form-container{
+margin: 10px;
+width:100%;
+padding:40px;
+text-align:center;
+border:1px solid black;
+background-color: lightgrey;
+display: flex;
+align-items: center;
+justify-content: center;
+
 }
-.header-form{
-    padding:30px;
+.form-group{
+    margin-top:15px;
+    padding:10px;
+    width:100%;
+    font-size:15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.myform input{
-    display: block;
-    padding-top:20px;
+
+.form-group input{
+    padding:10px;
+    width:100%;
 }
-.myform input[type="email"]{
-    border-radius:10px;
-    background-color: white;
-    margin:20px;
-    width:70%
+.form-group.btn{
+    background-color: black;
+    padding:10px;
+    width:100%;
 }
-.myform input[type="text"]{
-    border-radius:10px;
-    background-color: white;
-    margin:20px;
-    width:70%
-}
-.myform input[type="submit"]{
-    border-radius:10px;
-    margin:20px;
-    width:70%
+.btn:hover{
+    background-color: rgb(63, 62, 62);
+    color:cornsilk;
 }
 
 .footer{
@@ -104,6 +108,11 @@ li{
 }
 
 @media(max-device-width :480px){
+    .heading-menu{
+        width:100%;
+        margin:0 absolute;
+        overflow:hidden;
+    }
     .banner{
         width:500px;
         height:500px;
@@ -116,6 +125,7 @@ li{
 <!--hrtml codes-->
 <div class="header">
 <h1> Connect  with Salamah</h1>
+<div class ="heading-menu">
     <div id="main-nav">
         <ul class= "nav-ul">
         <div class ="big-p">
@@ -129,17 +139,29 @@ li{
      <!--main nav stops-->
     <img alt="pic-message" src="message.jpg" width="1320px" height="500px" class="banner">
 </div><!--header div stops-->
-<!--form-->
-<div class="form-container"></div>
-       
-            <h2 class ="header-form">Enter Details</h2>
-            <form method="post" class="myform">
-                <input type="email" placeholder="username@mail.com">
-                <input type="text" placeholder="Enter Your Firstname">
-               <a  href="mailto:salamahjimoh@gmail.com"> <input type="submit" value="Message"></a>
-            </form>
-            </p>
-            </div>
+</div>
+</div>
+<!--form starts-->
+<div id="form-container">
+    <form action="" method="POST">
+        <h1 style="margin:10px; color:rgb(56, 55, 55)">Connect</h1>
+    <div class ="form-group">
+        <label>Name</label>
+        <input type="text" placeholder="FirstName LastName" Required>
+    </div>
+    <div class ="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="mail@mail.com" Required>
+    </div>
+    <div class ="form-group btn" >
+        <!--input type="submit" value="Message">-->
+        <p><a href="mailto:salamahjimoh@gmail.com">Message</a></p>
+    </div>
+    </form>
+    </div>
+    
+        <!--form ends-->
+    
 <a href="index.html" style="text-decoration:underline; color:blue;">Go Back To HomePage</a>
 <div class= "footer">
     &nbsp;<p class= "footer-p">Salamah Jimoh 2020<br>

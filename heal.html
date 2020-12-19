@@ -129,12 +129,18 @@ h2{
     padding:5px;
 }
 @media(max-device-width:480px){
+    .heading-menu{
+        width:100%;
+        margin:0 absolute;
+        overflow:hidden;
+    }
     .banner{
         width:500px;
         height:500px;
     }
   .heal{
       flex-wrap: wrap;
+      overflow: hidden;
   }  
   .btn{
     padding:10px;
@@ -167,6 +173,7 @@ h2{
 <div class="header">
     <h1> Heal</h1>
     <small>...writing is more than a hobby</small>
+    <div class ="heading-menu">
         <div id="main-nav">
             <ul class= "nav-ul">
             <div class ="big-p">
@@ -186,6 +193,7 @@ h2{
     <div class="img"><!--img stops--></div>
     <div class="container">
         <img alt="pic-message" src="heal.jpg" width="1320px" height="500px" class="banner">
+    </div>
 <!--bunch of heals-->
 <div class="heal">
       <div class="box1b">

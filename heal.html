@@ -56,6 +56,9 @@ a{
     width:100%;
     overflow: hidden;
 }
+#btn1{
+    visibility: hidden;
+}
 .heal{
     display: flex;
     padding:10px;
@@ -128,7 +131,7 @@ h2{
 .icons img{
     padding:5px;
 }
-@media(max-device-width:480px){
+@media(max-width:480px){
 
     .heading-menu{
         width:100%;
@@ -139,6 +142,19 @@ h2{
         width:500px;
         height:500px;
     }
+    #btn1{
+    padding:10px;
+    background-color:coral;
+     color:white;
+     font-size:15px;
+     visibility: visible;
+     margin:20px;
+     }
+     #btn1:hover{
+    background-color: white;
+     color:coral;
+     visibility: visible;
+}
   .heal{
       flex-wrap: wrap;
       overflow: hidden;
@@ -154,10 +170,11 @@ h2{
      animation-delay: 2s;
      animation-iteration-count: 2;
      animation-fill-mode: forwards;
+     visibility: hidden;
 }
 @keyframes swim {
     0%{right:-100px;}
-    100%{right:300px;}
+    100%{right:50px;}
     
 }
 h2{
@@ -195,6 +212,12 @@ h2{
     <div class="container">
         <img alt="pic-message" src="heal.jpg" width="1320px" height="500px" class="banner">
     </div>
+    <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deleniti quidem enim aut totam possimus dicta, ducimus vero nihil t
+        emporibus iure voluptas sed nesciunt sapiente itaque tempora minima atque suscipit maiores aliquam, architecto quam tenetur! 
+        Esse ducimus minima tempore perspiciatis delectus. 
+        Maxime architecto rerum, repellat eum tempora asperiores repellendus optio.
+        <a id="btn1" href="#">Read Heal</a>
+    </p>
 <!--bunch of heals-->
 <div class="heal">
       <div class="box1b">
@@ -213,7 +236,7 @@ h2{
            il qui! Vero natus facere unde, blanditiis molli
          repudiandae. Minus at saepe, repudiandae minima quidem nihil voluptates veritatis placeat ullam tempora nostrum possimus iure accusamus? 
          Sed?</p>
-         <a class="btn" href="#" style="margin:10px;"> Read Heal</a>
+        <a class="btn" href="#" style="margin:10px;"> Read Heal</a>
 </div><!--2 ends-->
 
 </div><!--heal stops-->
@@ -223,20 +246,18 @@ h2{
     <img src="poem.jpg" alt="heal" height="250px" width="400px"></img>
     <p class="text" style="color: coral;">Follow On Instagram @jimoh_salamah to see more of my writings xxx</p>
 </div><!--ends-->
-
-
     </div> <!--container stops-->
-        <a href="index.html" style="text-decoration:underline; color:blue;">Go Back To HomePage</a>
+        <a href="index.html" style="text-decoration:underline; color:blue; margin:20px;">Go Back To HomePage</a>
         <div class= "footer">
             &nbsp;<p class= "footer-p">Salamah Jimoh 2020<br>
             <!--icon--> salamahjimoh@gmail.com<br>
             <!--icon
         --> 08123038871<br></p>
         <div class="icons">
-            <a href="#"><img src="whatsapp.png" alt="whatsappicon"></a></img>
-            <img src="insta.jpeg" alt="instagramicon"></a></img>
-            <img src="fb.png" alt="fbicon"></a></img>
-            <img src="twitter.png" alt="tweeticon"></a></img>
+            <a href="https://wa.me/2348123038871"><img src="whatsapp.png" alt="whatsappicon"></a></img>
+           <a href="www.instagram.com/salamah_jimoh"> <img src="insta.jpeg" alt="instagramicon"></a></img>
+          <a href="#" > <img src="fb.png" alt="fbicon"></a></img>
+          <a href="#"> <img src="twitter.png" alt="tweeticon"></a></img>
         </div>
             </div>
         </body>

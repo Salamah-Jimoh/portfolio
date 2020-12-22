@@ -16,6 +16,7 @@ a{
 a:hover{
     color:blue;
 }
+
 .btn{
     background-color: black;
     color:white;
@@ -94,6 +95,7 @@ a:hover{
     
 }*/
 .button{
+    text-align: center;
     font-size:20px;
     display: inline-block;
     color:white;
@@ -201,14 +203,11 @@ align-items: flex-end;
             padding:10px;
             overflow: hidden;
         }
-    #review{
-        padding:15px;
-        margin:10px;
-        background-color: transparent;
-        border:1px solid black;
-        color:darkslategrey;
-        width:15%;
-        font-size: 16px;
+    .review{
+        padding:10px;
+        font-size: 18px;
+        color:rgb(209, 209, 209);
+        font-family: 'Courier New', Courier, monospace;
 
     }
     /*reviws starts*/

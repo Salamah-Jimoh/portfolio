@@ -273,7 +273,7 @@ align-items: flex-end;
 .icons img{
     padding:5px;
 }
-@media(max-device-width:480px)
+@media(max-width:480px)
 {
     .heading-menu{
         width:100%;

@@ -51,6 +51,9 @@ a{
     position:relative;
 
 }
+#show{
+ display: none;
+}
 .container{
     margin:absolute;
     width:100%;
@@ -138,9 +141,15 @@ h2{
         margin:0 absolute;
         overflow:hidden;
     }
+    #show{
+       display: block;
+        visibility: visible;
+    }
     .banner{
         width:500px;
         height:500px;
+        visibility: hidden;
+        display: none;
     }
     #btn1{
     padding:10px;
@@ -148,7 +157,7 @@ h2{
      color:white;
      font-size:15px;
      visibility: visible;
-     margin:20px;
+     margin-top:40px;
      }
      #btn1:hover{
     background-color: white;
@@ -158,7 +167,13 @@ h2{
   .heal{
       flex-wrap: wrap;
       overflow: hidden;
-  }  
+  } 
+  .box1b{
+display: none;
+} 
+.b3{
+    overflow: hidden;
+}
   .btn{
     padding:10px;
     background-color:coral;
@@ -210,14 +225,15 @@ h2{
     </div><!--header div stops-->
     <div class="img"><!--img stops--></div>
     <div class="container">
-        <img alt="pic-message" src="heal.jpg" width="1320px" height="500px" class="banner">
+        <img alt="pic-message" src="heal.jpg" width="1320px" height="500px" class="banner"></img>
+          <div id ="show"> <img src="cover.png" alt="heal" height="400px" width="400px"> </img> </div>
     </div>
-    <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deleniti quidem enim aut totam possimus dicta, ducimus vero nihil t
+    <p class="text" style="margin-bottom:20px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deleniti quidem enim aut totam possimus dicta, ducimus vero nihil t
         emporibus iure voluptas sed nesciunt sapiente itaque tempora minima atque suscipit maiores aliquam, architecto quam tenetur! 
         Esse ducimus minima tempore perspiciatis delectus. 
-        Maxime architecto rerum, repellat eum tempora asperiores repellendus optio.
+        Maxime architecto rerum, repellat eum tempora asperiores repellendus optio.</p>
         <a id="btn1" href="#">Read Heal</a>
-    </p>
+    
 <!--bunch of heals-->
 <div class="heal">
       <div class="box1b">
@@ -246,6 +262,7 @@ h2{
     <img src="poem.jpg" alt="heal" height="250px" width="400px"></img>
     <p class="text" style="color: coral;">Follow On Instagram @jimoh_salamah to see more of my writings xxx</p>
 </div><!--ends-->
+</div>
     </div> <!--container stops-->
         <a href="index.html" style="text-decoration:underline; color:blue; margin:20px;">Go Back To HomePage</a>
         <div class= "footer">

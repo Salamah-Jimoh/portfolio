@@ -6,13 +6,22 @@
     <title> Homepage</title>
 <link rel= "stylesheet" href="style.css">
 </head>
-
+<div id="main">
 <div class= "main-header">
     <h1> Salamah Website</h1>
 <small> my space</small>
 <!--</div> !--main header div stops-->
 <div class ="heading-menu">
 <div id="main-nav">
+    <span class="open-side" style="float:left;">
+        <a href="#" onClick="OpenSideMenu()">
+            <svg width="30" height="30">
+                <path d ="M0, 5, 30, 5" stroke="#fff" stroke-width="5"/>
+                <path d ="M0, 14, 30, 14" stroke="#fff" stroke-width="5"/>
+                <path d ="M0, 23, 30, 23" stroke="#fff" stroke-width="5"/>
+                </svg>
+        </a>
+    </span>
     <ul class= "nav-ul">
     <div class ="big-p">
         <li class ="big-p"><a href="index.html">Home</a></li></img>
@@ -23,6 +32,16 @@
     </ul>
     </div><!--nav ul stops-->    
 </div><!--main nav stops-->
+<!--side menu starts-->
+<div id="sideMenu" class="side-nav">
+    <a href="#" class="btn-close" onClick="CloseSideMenu()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="message.html">Contact</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="projects.html">Projects</a>
+    <a href="heal.html">Heal</a>
+</div>
+<!--sidenav ends-->
 </div><!--main header div stops-->
 </div>
 <div class ="heading-menu">
@@ -113,4 +132,16 @@ welcome...</p>
 </div>
 </div>
 </div>
+</div><!--main id stops-->
+</body>
+<script>
+    function OpenSideMenu(){
+        document.getElementById('sideMenu').style.width="200px";
+        document.getElementById('main').style.marginLeft="200px";
+    }
+    function CloseSideMenu(){
+        document.getElementById('sideMenu').style.width="";
+        document.getElementById('main').style.marginLeft="";
+    }
+</script>
 </html>

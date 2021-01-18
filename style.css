@@ -161,7 +161,7 @@ width:100%;
     opacity:0;
     animation-name: button ;
     animation-duration: 3s;
-    animation-delay: 6s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
 
     transition-property: transform;
@@ -297,9 +297,43 @@ align-items: flex-end;
     
 }
 
-        
+.pg-br{
+    margin:10px;
+    padding:0px;
+    border: 0.3px solid rgb(248, 246, 246);
+}
+.agbari{
+    text-align: center;
+    line-height: 2.0em;
+    font-weight:bold;
+  }
+.projects-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:2em;
+    grid-auto-rows: minmax(400px, auto);
+}
+.pro{
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding:15px;
+    margin:10px;
+        }
+        .pro:hover{
+            background-color: rgb(32, 32, 32);
+            color:lightgrey;
+        }       
 
-
+        #socials{
+            margin:20px;
+        }
+        .socials-icons img{
+            display:inline-block;
+            margin:5px;
+            padding:10px;
+        }
 
 
 
@@ -313,7 +347,7 @@ align-items: flex-end;
 
 
 .footer{
-    padding:2px;
+    padding:0px;
    background-color: rgb(29, 27, 27);
     margin-top:80px;
 
@@ -324,9 +358,7 @@ align-items: flex-end;
     padding:10px;
 }
 
-.icons img{
-    padding:5px;
-}
+
 @media(max-width:480px)
 {
     .nav-ul{

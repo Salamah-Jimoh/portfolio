@@ -63,14 +63,14 @@ text-align:center;
   font-size:17px;
 }
 .side-nav{
-    height:75%;
+    height:50%;
     width:0;
     position:fixed;
     z-index: 1;
     top:0px;
     left:0px;
     background-color: #000;
-    opacity: 0.9;
+    opacity: 0.6;
     overflow-x: hidden;
     padding-top:40px;
     transition:0.5s
@@ -106,15 +106,15 @@ width:100%;
 
 }
 #imganime{
-    background-image: url('anon.jpg');
-    background-repeat: no-repeat;
-    background-position: center top;
+    text-align: center;
     width:1320px;
     height:500px;
     position:absolute;
-   /* overflow: hidden;*/
-
-    
+   
+   /* overflow: hidden;*/   
+}
+#imganime img{
+    box-shadow: 3px 3px 3px grey;
 }
 
 .anime{
@@ -210,7 +210,7 @@ align-items: flex-end;
 
     .box2{
         margin:5px;
-        padding:20px;
+        padding:60px;
         }
         
         
@@ -234,16 +234,16 @@ align-items: flex-end;
     list-style-image: url('git.png');
 }
 .list :nth-child(6){
-    list-style-image: url('boot.png');
+    list-style-image: url('github.png');
 }
 .list :nth-child(7){
-    list-style-image: url('art.png');
+    list-style-image: url('boot.png');
 }
 .list :nth-child(8){
-    list-style-image: url('write.png');
+    list-style-image: url('art.png');
 }
 .list :nth-child(9){
-    list-style-image: url('node.png');
+    list-style-image: url('write.png');
 }
 .prof{
     padding:10px;
@@ -377,9 +377,6 @@ align-items: flex-end;
     #imganime{
         width:450px;
         height:500px;
-        background-image: url('anon2.jpg');
-        background-position: center top;
-        background-repeat: no-repeat;
         position: absolute;
 
         
@@ -421,6 +418,9 @@ align-items: flex-end;
     font-size:16px;
     font-family: Arial, Helvetica, sans-serif ;
 
+}
+.box2{
+    padding:20px;
 }
 .list{
     margin-left:100px;

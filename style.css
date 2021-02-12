@@ -20,6 +20,7 @@ a{
 .btn:hover{
     background-color: red;
 }
+
 .main-header{
     background-color: black;
     color:white;
@@ -141,14 +142,6 @@ width:100%;
     margin:absolute;
     width:100%;
 }
-/*.img{
-    width:1320px;
-    height:500px;
-    background-image: url('../salamah.com/anon2.jpg');
-    background-repeat: no-repeat;
-    position:relative;
-    
-}*/
 .button{
     text-align: center;
     font-size:20px;
@@ -257,38 +250,54 @@ align-items: flex-end;
             padding:10px;
             overflow: hidden;
         }
-    .review{
-        padding:10px;
-        font-size: 18px;
-        color:rgb(209, 209, 209);
-        font-family: 'Courier New', Courier, monospace;
-
+    /*services column*/
+    .review1{
+        display: flex;
+        font-family: 'Times New Roman', Times, serif;
+        line-height:1.6em;
+        font-size:18px;
+        margin-top:20px;
     }
-    /*reviws starts*/
-.review1{
-    display: flex;
-    font-family: 'Times New Roman', Times, serif;
-    line-height:1.6em;
-    font-size:18px;
-    margin-top:20px;
-}
-.review1 img{
-    width:50px;
-    height:50px;
-    background-color: black;
-}
-.box1a{
-    border:1px solid lightgray;
-    background-color: black;
-    color: white;
-    padding:40px 20px;
-}
-.box2a{
-    border:1px solid lightgray;
-    background-color:black;
-    color:white;
-    padding:40px 20px;
-}
+    .review1 img{
+        width:50px;
+        height:50px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        padding-bottom:10px ;
+    }
+    .box1a{
+        border:1px solid lightgray;
+        background-color: black;
+        color: white;
+        padding:40px 20px;
+    }
+    .box2a{
+        border:1px solid lightgray;
+        background-color:black;
+        color:white;
+        padding:40px 20px;
+    }
+    .box3a{
+        border:1px solid lightgray;
+        background-color:black;
+        color:white;
+        padding:40px 20px;
+    }
+    .box1a:hover{
+        background-color: lightgray;
+        color:black;
+    }
+    .box2a:hover{
+        background-color: lightgray;
+        color:black;
+    }
+    .box3a:hover{
+        background-color: lightgray;
+        color:black;
+    }
 .text{
     font-size:18px; 
     font-weight:normal;
@@ -302,10 +311,11 @@ align-items: flex-end;
     padding:0px;
     border: 0.3px solid rgb(248, 246, 246);
 }
-.agbari{
+.sub-heading{
     text-align: center;
     line-height: 2.0em;
     font-weight:bold;
+    font-size:30px;
   }
 .projects-container{
     display:grid;
@@ -320,10 +330,12 @@ align-items: flex-end;
     background-color: black;
     padding:15px;
     margin:10px;
+    font-size:20px;
         }
         .pro:hover{
-            background-color: rgb(32, 32, 32);
-            color:lightgrey;
+            background-color: lightgray;
+            color:black;
+            
         }       
 
         #socials{
@@ -412,10 +424,11 @@ align-items: flex-end;
     
         background-color: rgb(29, 27, 27);
         color: white;
+        padding: 8px;
 }
 .box1 p{
     color: white;
-    font-size:16px;
+    font-size:20px;
     font-family: Arial, Helvetica, sans-serif ;
 
 }
@@ -425,17 +438,13 @@ align-items: flex-end;
 .list{
     margin-left:100px;
 }
-
-#review{
-    padding:15px;
-    margin:10px;
-    background-color: transparent;
-    border:1px solid white;
-    color:darkslategrey;
-    width:15%;
-    font-size: 15px;
-
+.projects-container{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-gap:2em;
 }
+
+
 .review1{
     flex-wrap: wrap;
 }

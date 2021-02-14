@@ -96,46 +96,30 @@ text-align:center;
 
 }
 #main{
-    transition:margin-left 0.5s;
+    transition: 0.5s;
 overflow:hidden;
 width:100%;
+position: fixed;
+
 }
 .banner{
     width:1320px;
     height:500px;
-    position:relative;
+    text-align: center;
 
-}
+
+} /* 
 #imganime{
     text-align: center;
     width:1320px;
     height:500px;
     position:absolute;
    
-   /* overflow: hidden;*/   
-}
+  overflow: hidden;
+  }*/   
+
 #imganime img{
     box-shadow: 3px 3px 3px grey;
-}
-
-.anime{
-    
-    word-spacing:5px;
-    text-align: center;
-    font-size:50px;/*was earlier 50px*/
-    line-height: 1.6em;
-    position:relative;
-    top:50px;
-    animation-name: h1;
-    animation-duration: 3s;
-    animation-delay: 0.5s;
-    color:white;
-    /*animation-fill-mode: backwards;*/
-    animation-iteration-count:3;
-}
-@keyframes h1{ 
-    0%{top:-50px;}
-    100%{top:200px;}
 }
 
 .container{
